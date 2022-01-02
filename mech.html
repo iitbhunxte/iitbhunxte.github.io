@@ -8,10 +8,6 @@
       href="/images/BITS UNXTE.png"
       type="image/x-icon"
     />
-
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -21,28 +17,14 @@
 		<link rel="stylesheet" href="css/style.css">
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<link href="/css/mystyles.css" rel="stylesheet">
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-1ZQ6F5KTZV"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-1ZQ6F5KTZV');
-
-</script>
-
-
 
   </head>
   <body>
 		
 	<button onclick="topFunction()" id="myBtn" title="Go to top">TOP</button>
 		
-	
-
 		<div class="wrapper d-flex align-items-stretch">
-			<nav id="sidebar" >
+			<nav id="sidebar">
 				<div class="custom-menu">
 					<button type="button" id="sidebarCollapse" class="btn btn-primary">
 	          <i class="fa fa-bars"></i>
@@ -71,8 +53,6 @@
 				<li>
                     <a href="mech.html">BE Mechanical</a>
                 </li>
-				
-
               </ul>
 	          </li>
 	          <li>
@@ -90,8 +70,7 @@
       <div id="content" class="p-4 p-md-5 pt-5">
 
         <div class="myheader">
-			<h1 class="mb-4">Welcome to BITS UNXTE</h1>
-			
+			<h1 class="mb-4">BE Mechanical</h1>
 			<div class="topnav">
 				<div class="dropdown">
 					<button class="dropbtn" onclick="showall()"> Show all</button>
@@ -132,12 +111,6 @@
 				  </form>
 				</div>
 			  </div>
-			  <br>
-			  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdQKXBRG-2cFKEk36QuIB4nWltyK4HS0TV9o0vfLV-UTz9x1Q/viewform?usp=sf_link" target="blank">
-			  <div class="topnav" style="padding: 10px; color:black; background-color: white;font-weight: 600;padding-left: 25px; padding-right: 25px;">
-				  Sign Up
-			  </div>
-				</a>
 			
 		</div>
 
@@ -160,21 +133,24 @@
 
 
 	<script>
+		
+
 		function showInfo(results) {
 			var data = results.data
 			
 
 			for (var i = data.length-1; i > -1; i--) {
 				
-				if (data[i]["Name"]!==""){
+				if (data[i]["Branch"]=="BE Mechanical"){
 					createCARD(data[i])
 				}
+				
 				
 			}
 
 		}
+		
 	</script>
-
 
 	
   </body>
